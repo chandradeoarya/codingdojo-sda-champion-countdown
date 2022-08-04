@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/chandradeoarya/awesome-linux-commands/blob/master/images/champion-countdown.gif?raw=true" />
+  <img src="https://github.com/chandradeoarya/codingdojo-sda-champion-countdown/blob/master/images/champion-countdown.gif?raw=true" />
 </p>
 
 Under Codingdojo-SDA programs we select one student as champion of the week every week. Revealing should be a celebration so that more students aspire to perform well and be a contender for next week<br>
