@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+
+	<title>Team DigitalAryaSamaj | Website Launch countdown timer</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="content">
+			<h1>We're revealing in </h1>
+			<div class="countdownContainer">
+				<div>
+					<div class="counterContainer">
+						<span></span>
+						<div class="counter" data-counttype="days">-</div>
+					</div>
+					<h3>Days</h3>
+				</div>
+
+				<div>
+					<div class="counterContainer">
+						<span></span>
+						<div class="counter" data-counttype="hours">-</div>
+					</div>
+					<h3>Hours</h3>
+				</div>
+
+				<div>
+					<div class="counterContainer">
+						<span></span>
+						<div class="counter" data-counttype="minutes">-</div>
+					</div>
+					<h3>Minutes</h3>
+				</div>
+				<div>
+					<div class="counterContainer">
+						<span></span>
+						<div class="counter" id="countdown" data-counttype="seconds">-</div>
+					</div>
+					<h3>Seconds</h3>
+				</div>
+
+			</div>
+
+
+		</div>
+
+		<div class="content">
+			<div id="launch" style="visibility:hidden">
+				<button onclick="location.href='./images/Ghada_Alsahli.JPG'" type="button" style="color: black; font-size: 24px;">Reveal Champion</button>
+			</div>
+		</div>
+
+
+		<footer>
+			<h2>DevOps bootcamp Codingdojo-SDA</h2>
+			<div>
+				<div class="counterContainer">
+					<img src="./images/codingdojo-logo.png" style="background-color:white; height: 150px;"></img>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
